@@ -1,7 +1,7 @@
 # stellar-karaoke
 Stellar Karaoke: Deep Blind Separation of Terrestrial Atmospheric Effects out of Stellar Spectra by Velocity Whitening
 
-Here you can find the code and (pointers to) the data used in the paper: [arxiv.org/abs/2009.12872](https://arxiv.org/abs/2009.12872) ([DOI:10.1093/mnras/staa3540](https://dx.doi.org/10.1093/mnras/staa3540))
+Here you can find the code and (pointers to) the data used in the paper: [doi.org/10.1093/mnras/stad2686](https://doi.org/10.1093/mnras/stad2686) ([arxiv.org/abs/2301.00313](https://arxiv.org/abs/2301.00313))
 
 ![alt](https://www.rawdataspeaks.com/wp-content/uploads/2023/09/Screenshot-from-2023-09-13-15-41-22.png "Stellar Karaoke")
 
