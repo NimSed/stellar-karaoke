@@ -21,3 +21,15 @@ class harps_spec_info():
     WAVE = np.arange(desiredMinW-padL*wave_resolution,
                      desiredMaxW+.001+padR*wave_resolution,
                      step=wave_resolution)
+
+    @staticmethod
+    def preprocess(wave, flux):
+        #--- Trim
+        wtrimmed = wave[ np.logical_and(wave >= (harps_spec_info.desiredMinW - harps_spec_info.eps),
+                                        wave <= (harps_spec_info.desiredMaxW + harps_spec_info.eps)) ]
+        ftrimmed = flux[ np.logical_and(wave >= (harps_spec_info.desiredMinW - harps_spec_info.eps),
+                                        wave <= (harps_spec_info.desiredMaxW + harps_spec_info.eps)) ]
+        #--- Pad
+        fPadded = np.pad(ftrimmed, pad_width=(harps_spec_info.padL, harps_spec_info.padR), mode='constant', constant_values=(0,0))
+
+        return harps_spec_info.WAVE, fPadded
