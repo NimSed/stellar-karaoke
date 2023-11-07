@@ -21,3 +21,5 @@ If you use this code for research please cite:
 The `karaoke.ipynb` notebook is the best place to start playing with the code.
 
 Please refer to the [main project page](https://www.rawdataspeaks.com/projects/stellar-karaoke), to access the sample outputs.
+
+This repository is being actively updated. Please do not hesitate to contact the authors (or file an issue) if you encounter an error or a missing component. 
