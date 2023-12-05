@@ -1,7 +1,7 @@
 from astropy.io import fits
 import os
 
-def load_harps_spectrum(specID, data_path='/rdata/harps/fits'):
+def load_harps_spectrum(specID, data_path='fits/'):
     """
     Load a HARPS spectrum from the FITS file.
     """
